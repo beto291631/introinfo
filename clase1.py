@@ -86,3 +86,6 @@ too_high = heart_rate > 100
 
 print("heart rate high?")
 print(too_high)
+
+# practica en casa 
+print("--------")
