@@ -87,5 +87,29 @@ too_high = heart_rate > 100
 print("heart rate high?")
 print(too_high)
 
-# practica en casa 
-print("--------")
+# practica de suma variable 1
+lote1=100
+lote2=200
+lote3= lote1+lote2
+print(lote3)
+
+#   ejercicio 2
+edad=18
+result= edad >=18
+print("es mayor de 18?")
+print(result)
+
+print("-------")
+# usemos comparaciones de string para etiquetar los datos adquiridos atravez de la encuestas de usuarios de una aplicacion de fitnes.
+# verificamos la respuesta de la encuesta de los usuarios con respecto ala frecuencia e intensidad de la actividad, las etiquetaremos y mostraremos los resultados.
+
+frecuencia = "una vez ala semana"
+intensidad = "Baja"
+
+activo = frecuencia=="diaria"
+print("el usuario es activo?")
+print(activo)
+
+intenso = intensidad == "alta"
+print("el usuario es intenso")
+print(intenso)
