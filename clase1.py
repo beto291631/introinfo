@@ -113,3 +113,11 @@ print(activo)
 intenso = intensidad == "alta"
 print("el usuario es intenso")
 print(intenso)
+
+# ejercicio casa 1
+# crear un algoritmo con el que agregue una variable un numero de celular con el formato xxxxxxxx, e imprimir mediante cadenas de texto el link para enviar a whatsapp.
+
+num_celular = input("ingresar el numero de celular(sin espacios ni giones:)")
+enlace_whatsapp = "https://wa.me/" + num_celular
+print("El enlace de WhatsApp correspondiente es:")
+print(enlace_whatsapp)
