@@ -117,7 +117,8 @@ print(intenso)
 # ejercicio casa 1
 # crear un algoritmo con el que agregue una variable un numero de celular con el formato xxxxxxxx, e imprimir mediante cadenas de texto el link para enviar a whatsapp.
 
-num_celular = input("ingresar el numero de celular(sin espacios ni giones:)")
-enlace_whatsapp = "https://wa.me/" + num_celular
-print("El enlace de WhatsApp correspondiente es:")
-print(enlace_whatsapp)
+numero_celular = input("Ingrese su número de celular sin espacios ni guiones: ")
+numero_celular = 86200454 
+texto_enlace_whatsapp = "https://wa.me/" + numero_celular
+print("Este es el enlace para enviar un mensaje por WhatsApp:")
+print(texto_enlace_whatsapp)
