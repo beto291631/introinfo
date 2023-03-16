@@ -122,3 +122,14 @@ numero_celular = 86200454
 texto_enlace_whatsapp = "https://wa.me/" + numero_celular
 print("Este es el enlace para enviar un mensaje por WhatsApp:")
 print(texto_enlace_whatsapp)
+
+print("--------------")
+# pruebas practica 1
+# ejercicio numero 1
+print("hola mundo")
+
+# ejercicio 2
+mensaje="¡hola mundo!"
+print(mensaje)
+
+
