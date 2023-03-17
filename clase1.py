@@ -137,4 +137,5 @@ print(mensaje)
 # Escribir un programa que almacene el nombre del usuario en la consola y después de que muestre por pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el nombre que el usuario.
 
 
-
+nombre = input ("ingresar nombre de usuario: ")
+print(f"¡hola {nombre}!")
