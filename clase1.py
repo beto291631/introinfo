@@ -125,8 +125,10 @@ print(texto_enlace_whatsapp)
 
 print("--------------")
 # pruebas practica 1
+
+
 # ejercicio numero 1 Escribir un programa que muestre por pantalla la cadena ¡Hola Mundo!.
-print("hola mundo")
+print("¡hola mundo!")
 
 # ejercicio 2 Escribir un programa que almacene la cadena ¡Hola Mundo! en una variable y luego muestre por pantalla el contenido de la variable.
 mensaje="¡hola mundo!"
@@ -134,8 +136,32 @@ print(mensaje)
 
 # Ejercicio 3
 
-# Escribir un programa que almacene el nombre del usuario en la consola y después de que muestre por pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el nombre que el usuario.
+# Escribir un programa que almacene el nombre del usuario en la consola y después de que muestre por pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el nombre que es el nombre del usuario.
+
+nombre = input("Por favor ingresa tu nombre: ")
+print(f"¡Hola {nombre}!")
+
+# Ejercicio 4
+
+# Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética
 
 
-nombre =  ("ingresar nombre de usuario: ")
-print(f"¡hola {nombre} !")
+
+# Ejercicio 5
+
+# Escribir un programa que pregunte almacene el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
+
+horas_trabajadas= float(input("horas trabajadas:"))
+coste_por_hora= float (input("coste por hora"))
+paga = horas_trabajadas * coste_por_hora
+print("La paga correspondiente es: $" + str(paga))
+
+
+# Ejercicio 6
+
+# Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales.
+
+peso = float(input("ingrese su peso en kg"))
+estatura = float(input("ingrese estatura en metros"))
+imc = peso / (estatura**2)
+print("Tu índice de masa corporal es: " + "{:.2f}".format(imc))
