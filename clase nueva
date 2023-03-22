@@ -23,6 +23,8 @@ if nota <=80 :
 else:
     print("pasate ")
 
+
+# if de lo contrario si
 porcentaje = 65
 
 if porcentaje < 60:
@@ -31,4 +33,6 @@ elif porcentaje < 70:
     print("convocatoria")
 else:
     print("aprobado")
+
+
 
