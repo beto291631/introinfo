@@ -1,0 +1,34 @@
+cargado = False
+if cargado :
+    print("el celular esta cargado")
+if cargado == False:
+    print("conecte el cargador ")
+
+
+cargado = False
+if cargado :
+    print("el celular esta cargado")
+else:
+    print("conecte el cargador ")
+
+moroso= False
+if cargado :
+    print("el celular esta cargado")
+else:
+    print("moroso, por favor pague")
+
+nota=80
+if nota <=80 :
+    print("penales ")
+else:
+    print("pasate ")
+
+porcentaje = 65
+
+if porcentaje < 60:
+    print("reprobado")
+elif porcentaje < 70:
+    print("convocatoria")
+else:
+    print("aprobado")
+
