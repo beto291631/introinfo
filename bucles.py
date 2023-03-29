@@ -74,6 +74,7 @@ else:
 
 
 # Hacer un programa que calcule la tabla de multiplicar de un número ingresado por el usuario.
+numero = int(input("4"))
 for f in range(1,11):
     print(f'4 x {f} = {4 * f}')
 
