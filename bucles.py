@@ -62,7 +62,10 @@ radio = diametro / 2
 print(f"La circunferencia es {circunferencia} y el radio es {radio}")
 
 # Hacer un programa que calcule el promedio de una lista de números ingresados por el usuario.
-
+numeros_str = input("Ingresa una lista de números separados por comas: ")
+numeros = [float(x) for x in numeros_str.split(",")]
+promedio = sum(numeros) / len(numeros)
+print("El promedio es:", promedio)
 
 # Hacer un programa que determine si un número ingresado por el usuario es par o impar.
 numero= int(input("ingrese un numero"))
@@ -81,6 +84,34 @@ for f in range(1,11):
 
 
 # Hacer un programa que cuente la cantidad de letras y números en un texto ingresado por el usuario.
+# Pedir al usuario que ingrese un texto
+texto = input("Ingresa un texto: ")
+
+letras = 0
+numeros = 0
+
+for caracter in texto:
+    if caracter.isalpha():
+        letras += 1
+    elif caracter.isnumeric():
+        numeros += 1
+print("Cantidad de letras:", letras)
+print("Cantidad de números:", numeros)
 
 
 # Hacer un programa que ordene una lista de números ingresados por el usuario en orden ascendente o descendente.
+
+numeros_str = input("Ingresa una lista de números separados por comas: ")
+
+numeros = [float(x) for x in numeros_str.split(",")]
+
+orden = input("¿Quieres ordenar en orden ascendente o descendente? (asc/desc): ")
+
+if orden == "asc":
+    numeros.sort()
+elif orden == "desc":
+    numeros.sort(reverse=True)
+else:
+    print("Opción no válida. Solo se puede elegir 'asc' o 'desc'.")
+
+print("Lista ordenada:", numeros)
