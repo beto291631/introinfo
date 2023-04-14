@@ -114,4 +114,4 @@ elif orden == "desc":
 else:
     print("Opción no válida. Solo se puede elegir 'asc' o 'desc'.")
 
-print("Lista ordenada:", numeros)
+print("Lista ordenada:", numero)
